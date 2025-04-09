@@ -2,3 +2,6 @@ prueba de subir archivo a mi bucket local
 
 awslocal s3 cp [nombre archivo] s3://[nombre_buckety_local]
 
+prueba de edicion en el buckect y versionado
+
+awslocal s3api put-bucket-versioning --bucket my-test-bucket --versioning-configuration Status=Enabled
